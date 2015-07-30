@@ -2,7 +2,8 @@ import java.io.IOException;
 public class ByeCommand implements CommandInterFace {
 	private ChatUserHandler handler;
 	public ByeCommand(ChatUserHandler handler) {
-		// TODO 自動生成されたコンストラクター・スタブ
+		
+        // TODO 自動生成されたコンストラクター・スタブ
 		this.handler = handler;
 	}
 	@Override
