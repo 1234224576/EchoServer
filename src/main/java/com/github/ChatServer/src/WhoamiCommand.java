@@ -9,6 +9,15 @@ public class WhoamiCommand implements CommandInterFace {
 	}
 	@Override
 	public void actionCommand() {
+        // TODO 自動生成されたメソッド・スタブ
+		try {
+			handler.out.write(handler.userdata.name);
+			handler.out.write("\r\n");
+			handler.out.flush();
+		} catch (IOException e) {
+			// TODO: handle exception
+			System.out.println(e);
+		}
 
 	}
 
